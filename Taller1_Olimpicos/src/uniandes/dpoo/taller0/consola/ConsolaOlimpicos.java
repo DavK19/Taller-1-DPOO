@@ -83,6 +83,7 @@ public class ConsolaOlimpicos
 				{
 					System.out.println("Por favor seleccione una opción válida.");
 				}
+				sc.close();
 			}
 			catch (NumberFormatException e)
 			{
